@@ -26,6 +26,11 @@ const useStyles = makeStyles((theme) => ({
       [theme.breakpoints.down("xs")]: {
         padding: "0px",
       },
+      "& .content": {
+        [theme.breakpoints.down("xs")]: {
+          width: "16%",
+        },
+      },
     },
   },
 }));
@@ -53,9 +58,10 @@ function Avatar(props) {
                 return (
                   <Box
                     key={ele}
-                    width="20%"
+                    width="18%"
                     display="flex"
                     justifyContent="center"
+                    className="content"
                     margin={2}
                   >
                     <img src={logo} alt="logo" />
@@ -73,9 +79,10 @@ function Avatar(props) {
                 return (
                   <Box
                     key={ele}
-                    width="20%"
+                    width="18%"
                     display="flex"
                     justifyContent="center"
+                    className="content"
                     margin={2}
                   >
                     <Animated
