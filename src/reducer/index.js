@@ -22,7 +22,7 @@ const initialState = {
       { img: time, title: "Time management" },
       { img: team, title: "Teamwork" },
       { img: hard, title: "Hard-working" },
-      { img: friendly, title: "Be a friendly" },
+      { img: friendly, title: "Friendly" },
     ],
     project: [
       {
@@ -59,8 +59,7 @@ const initialState = {
       description:
         "Studying in Nong Lam University at Faculty of Information Technology",
     },
-    cv:
-      "https://docs.google.com/document/d/1zw8wigC20K51sCwkDxnw-IMDDZ51K7xbZ5OuL4Sn0B8/edit?usp=sharing",
+    cv: "https://docs.google.com/document/d/1zw8wigC20K51sCwkDxnw-IMDDZ51K7xbZ5OuL4Sn0B8/edit?usp=sharing",
   },
   scrollDown: false,
 };

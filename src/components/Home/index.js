@@ -5,7 +5,7 @@ import View from "../View";
 import { Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { changeScrollDown } from "../../action";
-import background from "../../img/background.png";
+import background from "../../img/background3.png";
 
 const useStyles = makeStyles({
   home: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     maxHeight: "100%",
     backgroundImage: `url(${background})`,
     backgroundSize: "cover",
-    backgroundPosition: "top",
+    backgroundPosition: "center",
     position: "fixed",
     top: 0,
     left: 0,
